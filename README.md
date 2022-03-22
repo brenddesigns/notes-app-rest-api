@@ -3,10 +3,14 @@ Restful CRUD API for a simple note taking application using Spring Boot, Mysql, 
 
 # Setup 
 1. Clone the application:
-```git clone https://github.com/brenddesigns/notes-app-rest-api.git```
+```
+git clone https://github.com/brenddesigns/notes-app-rest-api.git
+```
 
 2. Create MySQL database:
-```CREATE DATABASE notes_app;```
+```
+CREATE DATABASE notes_app;
+```
 
 3. Change MySQL username and password inside application.properties file:
 * Open ```src/main/resources/application.properties```

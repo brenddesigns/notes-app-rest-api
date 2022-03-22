@@ -29,8 +29,22 @@ The app will start running at http://localhost:8080.
 
 # Exploring the REST API
 
-1. Get All Notes:
+1. Get all notes from MySQL database:
 ```
-GET /api/v1/notes
+GET localhost:8080/api/v1/notes
 ```
 ![Screen Shot 2022-03-22 at 7 16 21 pm](https://user-images.githubusercontent.com/79638487/159440138-4ee68467-c890-440d-a474-b510c8ab6601.png)
+
+2. Get specific note with a specific ID:
+```
+GET localhost:8080/api/v1/notes/{noteId}
+```
+In the screenshot below, we are returning the note with the id of ```1```
+![Screen Shot 2022-03-22 at 7 16 55 pm](https://user-images.githubusercontent.com/79638487/159440535-b0ebe6d6-e0be-4e1c-8703-4ed629e98e3f.png)
+
+3. Add a note using PUT method:
+```
+PUT localhost:8080/api/v1/notes/{noteId}
+```
+In the screenshot below, we are adding note with id of ```2```
+![Screen Shot 2022-03-22 at 7 18 11 pm](https://user-images.githubusercontent.com/79638487/159441270-ce785304-3c86-4aeb-b986-e7dd91c9c6b1.png)

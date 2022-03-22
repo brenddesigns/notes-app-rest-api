@@ -31,6 +31,6 @@ The app will start running at http://localhost:8080.
 
 1. Get All Notes:
 ```
-GET /api/notes
+GET /api/v1/notes
 ```
 ![Screen Shot 2022-03-22 at 7 16 21 pm](https://user-images.githubusercontent.com/79638487/159440138-4ee68467-c890-440d-a474-b510c8ab6601.png)

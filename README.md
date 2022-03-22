@@ -1,4 +1,4 @@
-# notes-app-rest-api
+# Notes App REST API
 Restful CRUD API for a simple note taking application using Spring Boot, Mysql, JPA and Hibernate.
 
 # Setup 
@@ -26,3 +26,11 @@ Alternatively, you can run the app without packaging it using:
 ```mvn spring-boot:run```
 
 The app will start running at http://localhost:8080.
+
+# Exploring the REST API
+
+1. Get All Notes:
+```
+GET /api/notes
+```
+![Screen Shot 2022-03-22 at 7 16 21 pm](https://user-images.githubusercontent.com/79638487/159440138-4ee68467-c890-440d-a474-b510c8ab6601.png)

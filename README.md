@@ -19,7 +19,7 @@ CREATE DATABASE notes_app;
 4. Build and Run the application using Maven:
 ```
 mvn package
-java -jar target/easy-notes-1.0.0.jar
+java -jar target/notes-app-rest-api-1.0.0.jar
 ```
 
 Alternatively, you can run the app without packaging it using:
